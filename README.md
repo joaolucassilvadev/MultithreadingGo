@@ -13,6 +13,6 @@ Concorrência é quando threads competem entre si pelo acesso ao kernel. Em vez 
 ### Diferença entre paralelismo e concorrência:
 Paralelismo é a execução simultânea de várias tarefas em um mesmo sistema. Em um ambiente com vários núcleos ou processadores, cada tarefa pode ser executada por um núcleo diferente ao mesmo tempo, aumentando a eficiência e reduzindo o tempo de execução.
 
-### Concorrência, por outro lado, é a execução intercalada de várias tarefas em um mesmo sistema. Em um ambiente concorrente, várias tarefas compartilham o mesmo núcleo ou processador, alternando entre si para realizar diferentes partes de suas tarefas. Isso permite que o sistema gerencie e execute várias tarefas de forma aparentemente simultânea, mesmo que elas estejam competindo pelo mesmo recurso.
+Concorrência, por outro lado, é a execução intercalada de várias tarefas em um mesmo sistema. Em um ambiente concorrente, várias tarefas compartilham o mesmo núcleo ou processador, alternando entre si para realizar diferentes partes de suas tarefas. Isso permite que o sistema gerencie e execute várias tarefas de forma aparentemente simultânea, mesmo que elas estejam competindo pelo mesmo recurso.
 
 Assim, a principal diferença é que no paralelismo as tarefas são executadas ao mesmo tempo, cada uma em seu próprio núcleo ou processador, enquanto na concorrência as tarefas são executadas de forma intercalada, compartilhando o mesmo núcleo ou processador.
